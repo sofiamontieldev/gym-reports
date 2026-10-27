@@ -1,0 +1,22 @@
+{
+  "properties": [
+    {
+      "name": "gym.integrations.mongodb.enabled",
+      "type": "java.lang.Boolean",
+      "description": "Enables MongoDB persistence and the workload query API.",
+      "defaultValue": false
+    },
+    {
+      "name": "gym.integrations.activemq.enabled",
+      "type": "java.lang.Boolean",
+      "description": "Enables the ActiveMQ workload event listener.",
+      "defaultValue": false
+    },
+    {
+      "name": "gym.messaging.trainer-workload-queue",
+      "type": "java.lang.String",
+      "description": "Queue that carries trainer workload events.",
+      "defaultValue": "trainer.workload"
+    }
+  ]
+}
